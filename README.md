@@ -2,7 +2,7 @@
 
 The files in this repository were used to configure the network depicted below.
 
-!(Images/ELK-Project - Diagram.png)
+![ELK-Project - Diagram](https://user-images.githubusercontent.com/86083475/142726519-83334c53-5d1e-434c-9825-f6ca8c9a2eed.png)
 
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the ansible file may be used to install only certain pieces of it, such as Filebeat.
 
@@ -75,7 +75,8 @@ The playbook implements the following tasks:
 
 The following screenshot displays the result of running `docker ps` after successfully configuring the ELK instance.
 
-!(Images/ELK. yml server run.PNG)
+![ELK  yml server run](https://user-images.githubusercontent.com/86083475/142726558-586f5640-3341-4076-b0be-3b5cdef9f646.PNG)
+
 
 ### Target Machines & Beats
 This ELK server is configured to monitor the following machines:
@@ -121,10 +122,13 @@ SSH into the control node and follow the steps below:
     - http://20.96.2.46:5601/app/kibana.
 
 Appendix 1 - Configuration of ELK server & Connect kibana
+https://github.com/sithum8992/ELK-Stack-Project-/tree/main/Images/Appendix%201
 
 Appendix 2 - Configuration of filebeat on WEB1 & WEB2 and connect to filebeat system
+https://github.com/sithum8992/ELK-Stack-Project-/tree/main/Images/Appendix%202
 
 Appendix 3 - Configuration of Metricbeat on WEB1 & WEB2 and connect to Metricbeat dashboard
+https://github.com/sithum8992/ELK-Stack-Project-/tree/main/Images/Appendix%203
     -
 
 
